@@ -12,12 +12,15 @@ main{
     flex-direction: column;
 }
 
+/*we have 5 children in here*/
 section{
     background-color: rgb(8, 60, 105);
     flex-wrap: wrap;
     flex: 200px;
 }
+
 /*grid*/
+/*we have 3 children in here*/
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
