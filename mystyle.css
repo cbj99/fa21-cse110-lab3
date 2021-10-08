@@ -51,11 +51,15 @@ h1 {
     text-align: center;
   }
 
+/*Class selector*/
+.special {
+    color: blue;
+} 
+
 /*universal selector*/
 * div{
     /*hex codes*/
     color: #FFFF00;
-    display: block;
 }
 
 /*descendant combinator*/
